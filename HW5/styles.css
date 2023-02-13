@@ -11,7 +11,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-    
+    gap: 20px;
 }
 
 .container-1 {
