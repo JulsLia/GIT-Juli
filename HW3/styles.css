@@ -1,0 +1,90 @@
+a {
+    color: rgb(151, 151, 143);
+}
+
+.colourtransformred {
+    text-decoration:none;
+}
+.colourtransformred:hover {
+    text-decoration:underline;
+    color: red;
+}
+
+
+
+.colourtransformorange {
+    text-decoration:none;
+   
+}
+.colourtransformorange:hover {
+    text-decoration:underline;
+    color: rgb(236, 157, 31);
+}
+
+.colourtransformpurple {
+    text-decoration:none;
+   
+}
+.colourtransformpurple:hover {
+    text-decoration:underline;
+    color: purple;
+   
+}
+
+
+
+
+.colourtransform {
+    text-decoration:none;
+}
+.colourtransform:hover {
+    text-decoration:underline;
+   
+}
+
+.colourtransform1 {
+    text-decoration:none;
+}
+.colourtransform1:hover {
+    text-decoration:underline;
+    color: #090;
+
+}
+
+.colourtransform2 {
+    text-decoration:none;
+}
+.colourtransform2:hover {
+    text-decoration:underline;
+    color: #009900;
+
+}
+
+.colourtransform3 {
+    text-decoration:none;
+}
+.colourtransform3:hover {
+    text-decoration:underline;
+    color: #00ff00;
+
+}
+
+.colourtransform4 {
+    text-decoration:none;
+}
+.colourtransform4:hover {
+    text-decoration:underline;
+    color:#3b8a34;
+}
+.imgtransform {
+    transition: 1s; 
+
+}
+   .imgtransform:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+      
