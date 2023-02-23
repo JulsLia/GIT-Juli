@@ -1,59 +1,208 @@
-const NAME = "My name: Yulia Sysoeva";
-console.log(NAME);
-const PLACEOFBIRTH = "Place of birth: Moscow";
-console.log(PLACEOFBIRTH);
-const STATUS = "Status: Learner"
-console.log(STATUS);
-let yearOfBirth = "Year of birth:";
-console.log(yearOfBirth)
-let year = 1990; 
-console.log(year);
-let thisYear1 = "This year:";
-console.log(thisYear1);
-let thisYear = 2023; 
-console.log(thisYear);
-let myAge = `Now ${thisYear - year} year`
-console.log(myAge);
-let aStoryAboutMe = `Немного обо мне. 
-Я люблю путешествовать,читать книги, смотреть сериалы и фильмы на английском, готовить торты и выпечку. Люблю посещать выставки, музеи и созерцать искусство и красоту.
-Мои хобби:
-- психология
-- путешествия
-- медитация
-- торты и выпечка
+let classiсLasagne = {
+    name: 'Classic Lasagne',
+    nameingredients: 'Ingredients:',
+    ingredients: ['minced meat', 'bechamel sauce', 'lasagne', 'cheese'],
+    'name cost price': 'Cost price:',
+    'cost price': 200,
+    'name sale price': 'Sale price:',
+    'sale price': 450,
+    'profit': 'Net profit:',
+};
+alert('Classic Lasagne');
+alert('Ingredients:');
+alert(classiсLasagne.ingredients);
+alert('Cost price:');
+alert(classiсLasagne['cost price']);
+alert('Sale price:');
+alert(classiсLasagne['sale price']);
+alert('Net profit:');
+alert(classiсLasagne['sale price']-classiсLasagne['cost price']);
 
-Мои новые увлечения:
-- йога
-- программирование
-- английский язык`
-console.log(aStoryAboutMe);
 
-let aboutWork = `Мой опыт работы:`
-console.log(aboutWork);
-let archivist = `- архивариус (6 месяцев)`
-console.log(archivist);
-let archivist1 = 0.6; 
-console.log(archivist1);
-let consultant = `- продавец-консультант (6 месяцев)`
-console.log(consultant);
-let consultant1 = 0.6;  
-console.log(consultant1);
-let pcOperator =`- оператор ПК (1 год)`
-console.log(pcOperator);
-let pcOperator1 = 1;
-console.log(pcOperator1);
-let engineer = `- инженер-техник (1 год)`
-console.log(engineer);
-let engineer1 = 1;
-console.log(engineer1);
-let manager = `- менеджер отдела продаж (4 года)`
-console.log(manager);
-let manager1 = 4;
-console.log(manager1);
-let workExperience = `Мой стаж чуть более 7 лет, а именно ${archivist1 + consultant1 + pcOperator1 + engineer1 + manager1} лет`
-console.log(workExperience);
 
-let connection = `Связаться со мной
-- telegram: @yuliasysoeva
-- email: Juli-2813@yandex.ru`
-console.log(connection);
+
+
+let caesarSaladWithShrimp = {
+    name: 'Caesar Salad With Shrimp',
+    nameingredients: 'Ingredients:',
+    ingredients: ['romano salad', 'shrimp', 'cherry tomatoes', 'crackers', 'salad dressing', 'parmesan cheese'],
+    'name cost price': 'Cost price:',
+    'cost price': 220,
+    'name sale price': 'Sale price:',
+    'sale price': 480,
+    'profit': 'Net profit:',
+};
+alert('Caesar Salad With Shrimp');
+alert('Ingredients:');
+alert(caesarSaladWithShrimp.ingredients);
+alert('Cost price:');
+alert(caesarSaladWithShrimp['cost price']);
+alert('Sale price:');
+alert(caesarSaladWithShrimp['sale price']);
+alert('Net profit:');
+alert(caesarSaladWithShrimp['sale price']-caesarSaladWithShrimp['cost price']);
+
+
+
+
+let eggplantSalad = {
+    name: 'Eggplant Salad',
+    nameingredients: 'Ingredients:',
+    ingredients: ['fried eggplant', 'tomatoes', 'bulgarian pepper', 'red onion', 'mozzarella', 'parsley', 'dill', 'cilantro', 'corn starch'],
+    'name cost price': 'Cost price:',
+    'cost price': 100,
+    'name sale price': 'Sale price:',
+    'sale price': 300,
+    'profit': 'Net profit:',
+};
+alert('Eggplant Salad');
+alert('Ingredients:');
+alert(eggplantSalad.ingredients);
+alert('Cost price:');
+alert(eggplantSalad['cost price']);
+alert('Sale price:');
+alert(eggplantSalad['sale price']);
+alert('Net profit:');
+alert(eggplantSalad['sale price']-eggplantSalad['cost price']);
+
+
+
+
+let creamSoupOfChampignons = {
+    name: 'Cream Soup Of Champignons',
+    nameingredients: 'Ingredients:',
+    ingredients: ['champignons', 'potatoes', 'onion', 'cream'],
+    'name cost price': 'Cost price:',
+    'cost price': 150,
+    'name sale price': 'Sale price:',
+    'sale price': 350,
+    'profit': 'Net profit:',
+};
+alert('Cream Soup Of Champignons');
+alert('Ingredients:');
+alert(creamSoupOfChampignons.ingredients);
+alert('Cost price:');
+alert(creamSoupOfChampignons['cost price']);
+alert('Sale price:');
+alert(creamSoupOfChampignons['sale price']);
+alert('Net profit:');
+alert(creamSoupOfChampignons['sale price']-creamSoupOfChampignons['cost price']);
+
+
+
+
+
+let pizzaBarbecue = {
+    name: 'Pizza Barbecue',
+    nameingredients: 'Ingredients:',
+    ingredients: ['dough', 'barbecue sauce', 'chicken fillet', 'mozzarella', 'parmesan cheese', 'olives', 'red onion', 'tomato sauce'],
+    'name cost price': 'Cost price:',
+    'cost price': 170,
+    'name sale price': 'Sale price:',
+    'sale price': 600,
+    'profit': 'Net profit:',
+};
+alert('Pizza Barbecue');
+alert('Ingredients:');
+alert(pizzaBarbecue.ingredients);
+alert('Cost price:');
+alert(pizzaBarbecue['cost price']);
+alert('Sale price:');
+alert(pizzaBarbecue['sale price']);
+alert('Net profit:');
+alert(pizzaBarbecue['sale price']-pizzaBarbecue['cost price']);
+
+
+
+
+
+let pastaBolognese = {
+    name: 'Pasta Bolognese',
+    nameingredients: 'Ingredients:',
+    ingredients: ['ground beef', 'spaghetti', 'tomato paste', 'onion', 'parmesan cheese', 'basil', 'garlic' ],
+    'name cost price': 'Cost price:',
+    'cost price': 180,
+    'name sale price': 'Sale price:',
+    'sale price': 450,
+    'profit': 'Net profit:',
+};
+alert('Pasta Bolognese');
+alert('Ingredients:');
+alert(pastaBolognese.ingredients);
+alert('Cost price:');
+alert(pastaBolognese['cost price']);
+alert('Sale price:');
+alert(pastaBolognese['sale price']);
+alert('Net profit:');
+alert(pastaBolognese['sale price']-pastaBolognese['cost price']);
+
+
+
+
+let grilledBeefWithPotatoesAndEggplant = {
+    name: 'Grilled Beef With Potatoes And Eggplant',
+    nameingredients: 'Ingredients:',
+    ingredients: ['beef', 'potatoes', 'eggplant'],
+    'name cost price': 'Cost price:',
+    'cost price': 300,
+    'name sale price': 'Sale price:',
+    'sale price': 650,
+    'profit': 'Net profit:',
+};
+alert('Grilled Beef With Potatoes And Eggplant');
+alert('Ingredients:');
+alert(grilledBeefWithPotatoesAndEggplant.ingredients);
+alert('Cost price:');
+alert(grilledBeefWithPotatoesAndEggplant['cost price']);
+alert('Sale price:');
+alert(grilledBeefWithPotatoesAndEggplant['sale price']);
+alert('Net profit:');
+alert(grilledBeefWithPotatoesAndEggplant['sale price']-grilledBeefWithPotatoesAndEggplant['cost price']);
+
+
+
+
+
+let meringueRoll = {
+    name: 'Meringue Roll',
+    nameingredients: 'Ingredients:',
+    ingredients: ['sugar', 'egg whites', 'pistachios', 'pistachio paste', 'lemon juice', 'corn starch', 'raspberry', 'cream', 'mascarpone'],   
+    'name cost price': 'Cost price:',
+    'cost price': 100,
+    'name sale price': 'Sale price:',
+    'sale price': 300,
+    'profit': 'Net profit:',
+};
+alert('Meringue Roll');
+alert('Ingredients:');
+alert(meringueRoll.ingredients);
+alert('Cost price:');
+alert(meringueRoll['cost price']);
+alert('Sale price:');
+alert(meringueRoll['sale price']);
+alert('Net profit:');
+alert(meringueRoll['sale price']-meringueRoll['cost price']);
+
+
+
+
+let menu = {
+    name: 'Menu:',
+    menuname: ['Classiс Lasagne', 'Caesar Salad With Shrimp', 'Eggplant Salad', 'Cream Soup Of Champignons', 'Pizza Barbecue', 'Pasta Bolognese', 'Grilled Beef With Potatoes And Eggplant', 'Meringue Roll'],
+};
+alert('Menu:');
+alert(menu.menuname);
+
+
+
+menu.menuname.pop();
+alert(menu.menuname);
+
+menu.menuname.unshift('Meringue Roll');
+alert(menu.menuname);
+
+meringueRoll.ingredients.shift();
+alert(meringueRoll.ingredients);
+
+menu.menuname.splice(0,7);
+alert(menu.menuname);
