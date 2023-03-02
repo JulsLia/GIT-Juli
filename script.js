@@ -1,208 +1,97 @@
-let classiсLasagne = {
-    name: 'Classic Lasagne',
-    nameingredients: 'Ingredients:',
-    ingredients: ['minced meat', 'bechamel sauce', 'lasagne', 'cheese'],
-    'name cost price': 'Cost price:',
-    'cost price': 200,
-    'name sale price': 'Sale price:',
-    'sale price': 450,
-    'profit': 'Net profit:',
-};
-alert('Classic Lasagne');
-alert('Ingredients:');
-alert(classiсLasagne.ingredients);
-alert('Cost price:');
-alert(classiсLasagne['cost price']);
-alert('Sale price:');
-alert(classiсLasagne['sale price']);
-alert('Net profit:');
-alert(classiсLasagne['sale price']-classiсLasagne['cost price']);
+let foreignPassport = prompt ('Do you have a foreign passport? (answer: yes or no)')
+
+if (foreignPassport == 'yes') {
+    alert ('Congratulations! You can go on a trip foreign country!');
+} else if (foreignPassport == 'no') {
+    alert ('What a pity! But you can\'t go on a trip foreign country:(');
+} else {
+    alert ('Not found');
+}
 
 
+let onlineSurvey = 'Online survey';
+console.log(onlineSurvey);
 
+let question1 = prompt ('Самый просматриваемый видео-хостинг интернета – это …?');
+if (question1 == "YouTube") {
+    alert ('Это правильный ответ!');
+} else if (question1 == 'youtube') {
+    alert ('Это правильный ответ!');
+} else if (question1 == 'Youtube') {
+    alert ('Это правильный ответ!');
+} else if (question1 == 'Ютуб') {
+    alert ('Это правильный ответ!');
+}else if (question1 == 'ютуб') {
+    alert ('Это правильный ответ!');
+}else {
+    alert ('Это неправильный ответ:(');
+}
 
+let question2 = prompt ('Какой танец считается самым страстным?');
+if (question2 == 'Танго') {
+    alert ('Это правильный ответ!');
+} else if (question2 =="танго") {
+    alert ('Это правильный ответ!');
+} else {
+    alert ('Это неправильный ответ:(');
+}
 
-let caesarSaladWithShrimp = {
-    name: 'Caesar Salad With Shrimp',
-    nameingredients: 'Ingredients:',
-    ingredients: ['romano salad', 'shrimp', 'cherry tomatoes', 'crackers', 'salad dressing', 'parmesan cheese'],
-    'name cost price': 'Cost price:',
-    'cost price': 220,
-    'name sale price': 'Sale price:',
-    'sale price': 480,
-    'profit': 'Net profit:',
-};
-alert('Caesar Salad With Shrimp');
-alert('Ingredients:');
-alert(caesarSaladWithShrimp.ingredients);
-alert('Cost price:');
-alert(caesarSaladWithShrimp['cost price']);
-alert('Sale price:');
-alert(caesarSaladWithShrimp['sale price']);
-alert('Net profit:');
-alert(caesarSaladWithShrimp['sale price']-caesarSaladWithShrimp['cost price']);
+let question3 = prompt ('Главное орудие хоккеиста – это …');
+if (question3 == 'клюшка') {
+    alert ('Это правильный ответ!');
+} else if (question3 == 'Клюшка') {
+    alert ('Это правильный ответ!');
+} else {
+    alert ('Это неправильный ответ:(');
+}
 
+let question4 = prompt ('Назовите главную телебашню России.')
+if (question4 == 'Останкино') {
+    alert ('Это правильный ответ!');
+} else if (question4 == 'останкино') {
+    alert ('Это правильный ответ!');
+} else {
+    alert ('Это неправильный ответ:(');
+}
 
+let question5 = prompt('Сколько длилась столетняя война?');
+if (question5 = 116) {
+    alert ('Это правильный ответ!');
+} else {
+    alert ('Это неправильный ответ:(');
+}
 
+let question6 = prompt ('Согласно известной пословице, в споре рождается …');
+if (question6 == 'Истина') {
+    alert ('Это правильный ответ!');
+} else if (question6 == 'истина') {
+    alert ('Это правильный ответ!');
+} else {
+    alert ('Это неправильный ответ:(');
+}
 
-let eggplantSalad = {
-    name: 'Eggplant Salad',
-    nameingredients: 'Ingredients:',
-    ingredients: ['fried eggplant', 'tomatoes', 'bulgarian pepper', 'red onion', 'mozzarella', 'parsley', 'dill', 'cilantro', 'corn starch'],
-    'name cost price': 'Cost price:',
-    'cost price': 100,
-    'name sale price': 'Sale price:',
-    'sale price': 300,
-    'profit': 'Net profit:',
-};
-alert('Eggplant Salad');
-alert('Ingredients:');
-alert(eggplantSalad.ingredients);
-alert('Cost price:');
-alert(eggplantSalad['cost price']);
-alert('Sale price:');
-alert(eggplantSalad['sale price']);
-alert('Net profit:');
-alert(eggplantSalad['sale price']-eggplantSalad['cost price']);
+let question7 = prompt ('Какой фрукт является объектом раздора?');
+if (question7 == 'Яблоко') {
+    alert ('Это правильный ответ!');
+} else if (question7 == 'яблоко') {
+    alert ('Это правильный ответ!');
+} else {
+    alert ('Это неправильный ответ:(');
+}
 
-
-
-
-let creamSoupOfChampignons = {
-    name: 'Cream Soup Of Champignons',
-    nameingredients: 'Ingredients:',
-    ingredients: ['champignons', 'potatoes', 'onion', 'cream'],
-    'name cost price': 'Cost price:',
-    'cost price': 150,
-    'name sale price': 'Sale price:',
-    'sale price': 350,
-    'profit': 'Net profit:',
-};
-alert('Cream Soup Of Champignons');
-alert('Ingredients:');
-alert(creamSoupOfChampignons.ingredients);
-alert('Cost price:');
-alert(creamSoupOfChampignons['cost price']);
-alert('Sale price:');
-alert(creamSoupOfChampignons['sale price']);
-alert('Net profit:');
-alert(creamSoupOfChampignons['sale price']-creamSoupOfChampignons['cost price']);
-
-
-
-
-
-let pizzaBarbecue = {
-    name: 'Pizza Barbecue',
-    nameingredients: 'Ingredients:',
-    ingredients: ['dough', 'barbecue sauce', 'chicken fillet', 'mozzarella', 'parmesan cheese', 'olives', 'red onion', 'tomato sauce'],
-    'name cost price': 'Cost price:',
-    'cost price': 170,
-    'name sale price': 'Sale price:',
-    'sale price': 600,
-    'profit': 'Net profit:',
-};
-alert('Pizza Barbecue');
-alert('Ingredients:');
-alert(pizzaBarbecue.ingredients);
-alert('Cost price:');
-alert(pizzaBarbecue['cost price']);
-alert('Sale price:');
-alert(pizzaBarbecue['sale price']);
-alert('Net profit:');
-alert(pizzaBarbecue['sale price']-pizzaBarbecue['cost price']);
-
-
-
-
-
-let pastaBolognese = {
-    name: 'Pasta Bolognese',
-    nameingredients: 'Ingredients:',
-    ingredients: ['ground beef', 'spaghetti', 'tomato paste', 'onion', 'parmesan cheese', 'basil', 'garlic' ],
-    'name cost price': 'Cost price:',
-    'cost price': 180,
-    'name sale price': 'Sale price:',
-    'sale price': 450,
-    'profit': 'Net profit:',
-};
-alert('Pasta Bolognese');
-alert('Ingredients:');
-alert(pastaBolognese.ingredients);
-alert('Cost price:');
-alert(pastaBolognese['cost price']);
-alert('Sale price:');
-alert(pastaBolognese['sale price']);
-alert('Net profit:');
-alert(pastaBolognese['sale price']-pastaBolognese['cost price']);
-
-
-
-
-let grilledBeefWithPotatoesAndEggplant = {
-    name: 'Grilled Beef With Potatoes And Eggplant',
-    nameingredients: 'Ingredients:',
-    ingredients: ['beef', 'potatoes', 'eggplant'],
-    'name cost price': 'Cost price:',
-    'cost price': 300,
-    'name sale price': 'Sale price:',
-    'sale price': 650,
-    'profit': 'Net profit:',
-};
-alert('Grilled Beef With Potatoes And Eggplant');
-alert('Ingredients:');
-alert(grilledBeefWithPotatoesAndEggplant.ingredients);
-alert('Cost price:');
-alert(grilledBeefWithPotatoesAndEggplant['cost price']);
-alert('Sale price:');
-alert(grilledBeefWithPotatoesAndEggplant['sale price']);
-alert('Net profit:');
-alert(grilledBeefWithPotatoesAndEggplant['sale price']-grilledBeefWithPotatoesAndEggplant['cost price']);
-
-
-
-
-
-let meringueRoll = {
-    name: 'Meringue Roll',
-    nameingredients: 'Ingredients:',
-    ingredients: ['sugar', 'egg whites', 'pistachios', 'pistachio paste', 'lemon juice', 'corn starch', 'raspberry', 'cream', 'mascarpone'],   
-    'name cost price': 'Cost price:',
-    'cost price': 100,
-    'name sale price': 'Sale price:',
-    'sale price': 300,
-    'profit': 'Net profit:',
-};
-alert('Meringue Roll');
-alert('Ingredients:');
-alert(meringueRoll.ingredients);
-alert('Cost price:');
-alert(meringueRoll['cost price']);
-alert('Sale price:');
-alert(meringueRoll['sale price']);
-alert('Net profit:');
-alert(meringueRoll['sale price']-meringueRoll['cost price']);
-
-
-
-
-let menu = {
-    name: 'Menu:',
-    menuname: ['Classiс Lasagne', 'Caesar Salad With Shrimp', 'Eggplant Salad', 'Cream Soup Of Champignons', 'Pizza Barbecue', 'Pasta Bolognese', 'Grilled Beef With Potatoes And Eggplant', 'Meringue Roll'],
-};
-alert('Menu:');
-alert(menu.menuname);
-
-
-
-menu.menuname.pop();
-alert(menu.menuname);
-
-menu.menuname.unshift('Meringue Roll');
-alert(menu.menuname);
-
-meringueRoll.ingredients.shift();
-alert(meringueRoll.ingredients);
-
-menu.menuname.splice(0,7);
-alert(menu.menuname);
+let result = prompt ('Сколько правильных ответов у тебя получилось?');
+if (result == 7) {
+    alert ('Это превосходный результат! Ты молодец!');
+} else if (result == 6) {
+    alert ('Это хороший результат! Ты молодец!');
+} else if (result == 5) {
+    alert ('Это неплохой результат! Но есть к чему стремиться!');
+} else if (result == 4) {
+    alert ('Это нерезультативный результат:( В следующий раз постарайся получше!');
+} else if (result == 3) {
+    alert ('Это грустный результат:( В следующий раз постарайся получше!');
+} else if (result <=2 ) {
+    alert (':(:(:(:(:( В следующий раз подготовься получше!');
+}else {
+    alert ('Not found');
+}
