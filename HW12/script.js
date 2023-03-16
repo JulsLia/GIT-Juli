@@ -33,64 +33,64 @@ let  i=15;
 let classiсLasagne = {
   name: 'Classic Lasagne',
   ingredients: ['minced meat', 'bechamel sauce', 'lasagne', 'cheese'],
-  'cost price': 0, 
-  'sale price': 450,
-   profit: 0,
+  costPrice: 0, 
+  salePrice: 450,
+  profit: 0,
 };
 
 let caesarSaladWithShrimp = {
   name: 'Caesar Salad With Shrimp',
   ingredients: ['romano salad', 'shrimp', 'cherry tomatoes', 'crackers', 'salad dressing', 'parmesan cheese'],
-  'cost price': 0,
-  'sale price': 480,
+  costPrice: 0,
+  salePrice: 480,
   profit: 0,
 };
 
 let eggplantSalad = {
   name: 'Eggplant Salad',
   ingredients: ['fried eggplant', 'tomatoes', 'bulgarian pepper', 'red onion', 'mozzarella', 'parsley', 'dill', 'cilantro', 'corn starch'],
-  'cost price': 0,
-  'sale price': 300,
+  costPrice: 0,
+  salePrice: 300,
   profit: 0,
 };
 
 let creamSoupOfChampignons = {
   name: 'Cream Soup Of Champignons',
   ingredients: ['champignons', 'potatoes', 'onion', 'cream'],
-  'cost price': 0,
-  'sale price': 350,
+  costPrice: 0,
+  salePrice: 350,
   profit: 0,
 };
 
 let pizzaBarbecue = {
   name: 'Pizza Barbecue',
   ingredients: ['dough', 'barbecue sauce', 'chicken fillet', 'mozzarella', 'parmesan cheese', 'olives', 'red onion', 'tomato sauce'],
-  'cost price': 0,
-  'sale price': 600,
+  costPrice: 0,
+  salePrice: 600,
   profit: 0,
 };
 
 let pastaBolognese = {
   name: 'Pasta Bolognese',
   ingredients: ['ground beef', 'spaghetti', 'tomato sauce', 'onion', 'parmesan cheese', 'basil', 'garlic' ],
-  'cost price': 0,
-  'sale price': 450,
+  costPrice: 0,
+  salePrice: 450,
   profit: 0,
 };
 
 let grilledBeefWithPotatoesAndEggplant = {
   name: 'Grilled Beef With Potatoes And Eggplant',
   ingredients: ['beef', 'potatoes', 'eggplant'],
-  'cost price': 300,
-  'sale price': 650,
+  costPrice: 300,
+  salePrice: 650,
   profit: 0,
 };
 
 let meringueRoll = {
   name: 'Meringue Roll',
   ingredients: ['sugar', 'egg whites', 'pistachios', 'pistachio paste', 'lemon juice', 'corn starch', 'raspberry', 'cream', 'mascarpone'],   
-  'cost price': 0,
-  'sale price': 300,
+  costPrice: 0,
+  salePrice: 300,
   profit: 0,
 };
 
@@ -157,15 +157,29 @@ for (let i = 0; i < dishes.length; i++) {
   for (let j = 0; j < dishes[i].ingredients.length; j++) {
     sum += ingredientsPrices[dishes[i].ingredients[j]];
   }
-  dishes[i]['cost price'] = sum;
+  dishes[i].costPrice = sum;
 };
-
-
+  
 
 for (let i = 0; i < dishes.length; i++) {
-  dishes[i].profit = dishes[i]['sale price'] -  dishes[i]['cost price'];
+  dishes[i].profit = dishes[i].salePrice -  dishes[i].costPrice;
 };
 
 
 console.log(`Мой массив блюд, с названием, ингредиентами, ценой приготовления, ценой реализации и получившийся прибылью: ${JSON.stringify(dishes)}`); 
 
+//1. В задании к предыдущему уроку в пункте 3 создайте локальные переменные внутри цикла и запишите в них строку с основной информацией по блюду, которую вы бы поместили в печатное меню.
+
+//2. Так же в этом задании создайте глобальную переменную и запишите в нее все строки строки из пункта 1 этого задания. В результате вы должны получить меню со списком всех блюд, которое можно было бы распечатать.
+
+let six = 'Д/З 12.\nTask 1. В задании к предыдущему уроку в пункте 3 создайте локальные переменные внутри цикла и запишите в них строку с основной информацией по блюду, которую вы бы поместили в печатное меню.\nTask 2. Так же в этом задании создайте глобальную переменную и запишите в нее все строки строки из пункта 1 этого задания. В результате вы должны получить меню со списком всех блюд, которое можно было бы распечатать.'; 
+ console.log(six);
+
+ let menu = '';
+
+for (let i = 0; i < dishes.length; i++) {
+  let b = `Dish: ${dishes[i].name} (ingredients: ${dishes[i].ingredients});  Prices: ${dishes[i].salePrice}\n`;
+    menu += b;
+};
+
+console.log(`MENU\n${menu}`);
