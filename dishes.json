@@ -1,0 +1,66 @@
+[
+    {
+      "name": "Classiс Lasagne",
+      "ingredients": ["minced meat", "bechamel sauce", "lasagne", "cheese"],
+      "costPrice": 0,
+      "salePrice": 450,
+      "profit": 0
+    },
+  
+    {
+      "name": "Caesar Salad With Shrimp",
+      "ingredients": ["romano salad", "shrimp", "cherry tomatoes", "crackers", "salad dressing", "parmesan cheese"],
+      "costPrice": 0,
+      "salePrice": 480,
+      "profit": 0
+    },
+  
+    {
+      "name": "Eggplant Salad",
+      "ingredients": ["fried eggplant", "tomatoes", "bulgarian pepper", "red onion", "mozzarella", "parsley", "dill", "cilantro", "corn starch"],
+      "costPrice": 0,
+      "salePrice": 300,
+      "profit": 0
+    },
+  
+    {
+      "name": "Cream Soup Of Champignons",
+      "ingredients": ["champignons", "potatoes", "onion", "cream"],
+      "costPrice": 0,
+      "salePrice": 350,
+      "profit": 0
+    },
+  
+    {
+      "name": "Pizza Barbecue",
+      "ingredients": ["dough", "barbecue sauce", "chicken fillet", "mozzarella", "parmesan cheese", "olives", "red onion", "tomato sauce"],
+      "costPrice": 0,
+      "salePrice": 600,
+      "profit": 0
+    },
+  
+    {
+      "name": "Pasta Bolognese",
+      "ingredients": ["ground beef", "spaghetti", "tomato sauce", "onion", "parmesan cheese", "basil", "garlic"],
+      "costPrice": 0,
+      "salePrice": 450,
+      "profit": 0
+    },
+  
+    {
+      "name": "Grilled Beef With Potatoes AndEggplant",
+      "ingredients": ["beef", "potatoes", "eggplant"],
+      "costPrice": 300,
+      "salePrice": 650,
+      "profit": 0
+    },
+  
+    {
+      "name": "Meringue Roll",
+      "ingredients": ["sugar", "egg whites", "pistachios", "pistachio paste", "lemon juice", "corn starch", "raspberry", "cream", "mascarpone"],
+      "costPrice": 0,
+      "salePrice": 300,
+      "profit": 0
+    }
+  ]
+  
